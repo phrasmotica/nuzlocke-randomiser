@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { Generator } from "./Generator"
+import { Nuzlocke } from "./Nuzlocke"
+import { NuzlockeDisplay } from "./NuzlockeDisplay"
+import { Rule } from "./Rule"
+
+import 'semantic-ui-css/semantic.min.css'
+import "./App.css"
+
+import rawData from "./data.json"
+
+const rules = rawData.rules as Rule[]
+
+const App = () => {
+    const [generatedGame, setGeneratedGame] = useState<Nuzlocke>()
+
+    return (
+        <div className="App">
+            <header className="App-header">
+                <div className="margin-bottom">
+                    <Generator
+                        rules={rules}
+                        setGeneratedGame={setGeneratedGame} />
+                </div>
+
+                <div>
+                    <NuzlockeDisplay
+                        game={generatedGame} />
+                </div>
+            </header>
+        </div>
+    )
 }
 
-export default App;
+export default App

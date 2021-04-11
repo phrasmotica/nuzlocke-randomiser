@@ -1,0 +1,276 @@
+{
+    "rules": [
+        {
+            "id": "faintedpokemon",
+            "name": "Fainted Pokémon are dead",
+            "description": "Any Pokémon that faints is considered dead, and must be released or put in a PC box.",
+            "difficulty": "core",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "firstencounterperarea",
+            "name": "Only first encounter in each area can be caught",
+            "description": "You may only catch the first Pokémon you encounter in each area, and no others. However, legendary Pokémon and other forced encounters may be caught.",
+            "difficulty": "core",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "nicknamedpokemon",
+            "name": "Pokémon must be nicknamed",
+            "description": "You must give a nickname to every Pokémon you obtain, in order to form stronger emotional bonds with them.",
+            "difficulty": "core",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "giftpokemonallowed",
+            "name": "Gift Pokémon may be used",
+            "description": "You may use Pokémon gifted to you by NPCs. However, Pokémon obtained via in-game trades or Mystery Gift may not be used.",
+            "difficulty": "core",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "noresetting",
+            "name": "Resetting is prohibited",
+            "description": "You may not voluntarily reset and reload the game at any point.",
+            "difficulty": "core",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "randomstarter",
+            "name": "Starter Pokémon is randomised",
+            "description": "You must choose your starter Pokémon according to the last digit of your trainer ID. If it is 1, 2 or 3 then the Grass-type starter must be chosen; 4, 5 or 6 means the Fire-type starter must be chosen, while 7, 8 or 9 means the Water-type starter must be chosen. If it is a 0 then you may pick any starter.",
+            "difficulty": "hard",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "blackoutgameover",
+            "name": "Black out/white out means game over",
+            "description": "A black out/white out means the game is over, even if there are usable Pokémon in the PC.",
+            "difficulty": "hard",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "firstencounterpergym",
+            "name": "Only first encounter in each area can be caught",
+            "description": "You may only catch the first Pokémon you encounter after each Gym battle.",
+            "difficulty": "hard",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "bossbattleteamlimits",
+            "name": "Boss battle team limits",
+            "description": "You may only use up to the same number of Pokémon as your opponent uses during Gym and rival battles.",
+            "difficulty": "hard",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "setbattlestyle",
+            "name": "\"Set\" battle style",
+            "description": "You must change the battle style to \"Set\", meaning you don't have the opportunity to switch out your Pokémon after an opponent's Pokémon faints.",
+            "difficulty": "hard",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "nostarter",
+            "name": "Not allowed to use starter Pokémon",
+            "description": "You must release your starter Pokémon or place it in the PC once the first wild Pokémon has been caught.",
+            "difficulty": "hard",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "nohealingitems",
+            "name": "Healing items are prohibited",
+            "description": "You may not use potions or status-healing items, thus you can only use Pokémon centers for healing.",
+            "difficulty": "hard",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "nopokemoncenters",
+            "name": "Pokémon centers are prohibited",
+            "description": "You may not use Pokémon centers for healing, thus you can only use potions or status-healing items.",
+            "difficulty": "hard",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "pokemoncentervisitlimit",
+            "name": "Limited Pokémon center visits per town",
+            "description": "You may only use a town's Pokémon center a certain number of times for healing.",
+            "difficulty": "hard",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "nohelditems",
+            "name": "Held items are prohibited",
+            "description": "You may not use held items.",
+            "difficulty": "hard",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "pokeballlimitatpokemarts",
+            "name": "Poké Ball limit at Poké Marts",
+            "description": "You may only purchase a certain number of Poké Balls from a given Poké Mart.",
+            "difficulty": "hard",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "nopokemarts",
+            "name": "Poké Marts are prohibited",
+            "description": "You may not purchase items from Poké Marts; only items found in the overworld or gifted by NPCs may be used.",
+            "difficulty": "hard",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "noevolution",
+            "name": "Evolution is prohibited",
+            "description": "You may not let your caught Pokémon evolve, but you are still allowed to catch evolved Pokémon.",
+            "difficulty": "hard",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "nolegendaries",
+            "name": "Legendary Pokémon are prohibited",
+            "description": "You may not use legendary Pokémon.",
+            "difficulty": "hard",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "nofleeing",
+            "name": "Fleeing from battle is prohibited",
+            "description": "You may not flee from battle.",
+            "difficulty": "hard",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "levellimit",
+            "name": "Level limit",
+            "description": "You may not use Pokémon above a certain level limit determined by the level of the upcoming Gym leader, Elite Four member or Champion's highest leveled Pokémon.",
+            "difficulty": "hard",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "nopokeballs",
+            "name": "Poké Balls are prohibited",
+            "description": "You may not use Poké Balls; any Pokémon obtained must be either gifted to you or hatched from an egg.",
+            "difficulty": "hard",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "nodaycare",
+            "name": "Day Care is prohibited",
+            "description": "You may not use the Day Care to raise your Pokémon.",
+            "difficulty": "hard",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "noexpshare",
+            "name": "Exp. Share is prohibited",
+            "description": "You may not use the Exp. Share to raise your Pokémon.",
+            "difficulty": "hard",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "noqol",
+            "name": "Quality-of-life features are prohibited",
+            "description": "You may not use quality-of-life features, such as Pokémon-Amie, the DexNav or Super Training.",
+            "difficulty": "hard",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "noonlineresources",
+            "name": "Online resources are prohibited",
+            "description": "You may not use online resources during the challenge.",
+            "difficulty": "hard",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "delayedrules",
+            "name": "Rules apply slightly later",
+            "description": "The rules of this Nuzlocke come into effect only once you have obtained Poké Balls for the first time, and thus have the ability to catch Pokémon. Also, if your first rival battle is immediately after you obtain your starter Pokémon then you do not have to release it should you lose the battle.",
+            "difficulty": "easy",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "speciesclause",
+            "name": "Species clause",
+            "description": "The \"first wild Pokémon in each area\" rule does not apply in an area until a species or evolution line is encountered that has not been caught yet. E.g. encountering a Caterpie while already owning a Caterpie, Metapod or Butterfree will not count as the first encounter.",
+            "difficulty": "easy",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "secondchanceclause",
+            "name": "Second chance clause",
+            "description": "You have a certain number of \"second chances\" to revive fainted team members.",
+            "difficulty": "easy",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "shinyclause",
+            "name": "Shiny clause",
+            "description": "Shiny Pokémon need not be released if they faint.",
+            "difficulty": "easy",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "gymbadgecheckpoints",
+            "name": "Gym badges are checkpoints",
+            "description": "If you get a game over, you may restart from where you got your previous Gym badge.",
+            "difficulty": "easy",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "fieldmovesclause",
+            "name": "Field moves clause",
+            "description": "If you have no Pokémon that can use a field move that is required to continue the game, you may catch another that can learn the required field move. However, this Pokémon cannot be used in battle for any reason, and must be released or put into the PC as soon as it is no longer needed or if you catch another Pokémon that can use the field move.",
+            "difficulty": "easy",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "safarizoneclause",
+            "name": "Safari Zone clause",
+            "description": "The \"first wild Pokémon in each area\" rule does not apply in the Safari Zone, where you may catch the first wild Pokémon in each area of the Safari Zone.",
+            "difficulty": "easy",
+            "overrides": [],
+            "conflicts": []
+        },
+        {
+            "id": "cheatingdevicesallowed",
+            "name": "Cheating devices are allowed",
+            "description": "Cheating devices, such as GameShark or Action Replay, may be used during the challenge.",
+            "difficulty": "easy",
+            "overrides": [],
+            "conflicts": []
+        }
+    ]
+}
